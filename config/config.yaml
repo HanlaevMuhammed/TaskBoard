@@ -1,0 +1,10 @@
+database:
+  host: "host.docker.internal"
+  port: 5432
+  user: "hanlaevm5"
+  password: "secret"
+  name: "taskboard"
+  sslmode: "disable"
+
+server:
+  port: 8080
