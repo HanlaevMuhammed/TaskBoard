@@ -8,3 +8,7 @@ database:
 
 server:
   port: 8080
+
+jwt:
+  secret: "secret-key"  
+  expires_in: 24
